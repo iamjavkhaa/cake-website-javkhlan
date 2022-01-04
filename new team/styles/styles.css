@@ -167,6 +167,7 @@ nav {
 
 .page-1-cont .page-1 {
   width: 100%;
+  height: 490px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -186,25 +187,24 @@ nav {
 
 .page-1-cont .page-1 .page-1-child .page-1-img {
   width: 100%;
-  height: 250px;
   position: relative;
 }
 
 .page-1-cont .page-1 .page-1-child .page-1-img img {
   width: 100%;
-  height: 100%;
+  height: 455px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .page-1-cont .page-1 .page-1-child .hover-appear {
-  width: 100%;
-  height: 100%;
+  width: 280px;
+  height: 280px;
   background-color: rgba(29, 26, 25, 0.6);
   border-radius: 50%;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 70px;
+  left: 35px;
   right: 0;
   bottom: 0;
   display: none;
