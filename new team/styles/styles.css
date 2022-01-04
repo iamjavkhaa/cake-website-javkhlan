@@ -523,7 +523,6 @@ span {
   padding: 10px;
   font-size: 16px;
   color: transparent;
-  text-align: center;
 }
 
 .ab-img img {
@@ -565,5 +564,42 @@ span {
 
 .text:hover p {
   color: #000;
+}
+
+@media (max-width: 640px) {
+  .visible\@s {
+    display: none !important;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 930px) {
+  .p-huwaalt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 10%;
+  }
+  .p-huwaalt p {
+    width: 500px;
+  }
+}
+
+@media (min-width: 931px) {
+  .p-huwaalt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
