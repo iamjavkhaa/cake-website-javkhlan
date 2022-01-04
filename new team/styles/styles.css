@@ -338,7 +338,13 @@ nav {
   }
 }
 
-@media (min-width: 640px) {
+@media screen and (max-width: 360px) {
+  .hooson h1 {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 784px) {
   .footer {
     width: 100%;
     height: 200px;
@@ -358,12 +364,41 @@ nav {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .contact, .address {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cont-text p {
+    width: 90% !important;
+  }
+  .cont-header i {
+    margin-bottom: 15px;
+  }
+}
+
 .footer {
   width: 100%;
+  max-width: 100%;
   background-color: #f2d096;
   padding: 10px;
   overflow: hidden;
   margin-top: 40px;
+}
+
+.footer .contact {
+  width: 100%;
+  max-width: 100% !important;
+}
+
+.footer .address {
+  width: 100%;
+}
+
+.footer .cont {
+  width: 100%;
 }
 
 .cont-header i {
@@ -395,12 +430,7 @@ nav {
 }
 
 .cont-text {
-  margin-right: 40px;
   font-size: 14px;
   color: #304d63;
-}
-
-.cont-text p {
-  width: 250px;
 }
 /*# sourceMappingURL=styles.css.map */
