@@ -272,7 +272,7 @@ nav{
         height: 280px !important;
     }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
     .hooson h1 {
         font-size: 38px;
     }
@@ -343,10 +343,48 @@ nav{
     margin-bottom: 10px;
 }
 .cont-text {
-    // margin-right: 40px;
+    margin-right: 40px;
     font-size: 14px;
     color: #304d63;
 }
-// .cont-text p {
-//     width: 250px;
-// }
+.cont-text p {
+    width: 250px;
+}
+
+// -----------------------animation start----------------------
+
+@keyframes text{
+    0%{
+        transform:scale(1, 1);
+    }
+
+    50%{
+        transform: scale(1.4, 0.5);
+    }
+    60%{
+        transform: scale(0.7, 1.4)
+    }
+    70%{
+        transform: scale(1.2, 0.8);
+    }
+   80%{
+        transform: scale(0.9, 1.1)
+    }
+    90%{
+        transform: scale(1.05, 0.9);
+    }
+    100%{
+        transform: scale(1, 1)
+    }
+} 
+
+span:hover {
+    animation: text 1s 1;
+    cursor: pointer;
+}
+span {
+    display: inline-block;
+    letter-spacing: 0;
+}
+
+// -----------------------animation end----------------------

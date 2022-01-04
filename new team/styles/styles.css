@@ -338,7 +338,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
   .hooson h1 {
     font-size: 38px;
   }
@@ -430,7 +430,85 @@ nav {
 }
 
 .cont-text {
+  margin-right: 40px;
   font-size: 14px;
   color: #304d63;
+}
+
+.cont-text p {
+  width: 250px;
+}
+
+@-webkit-keyframes text {
+  0% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  50% {
+    -webkit-transform: scale(1.4, 0.5);
+            transform: scale(1.4, 0.5);
+  }
+  60% {
+    -webkit-transform: scale(0.7, 1.4);
+            transform: scale(0.7, 1.4);
+  }
+  70% {
+    -webkit-transform: scale(1.2, 0.8);
+            transform: scale(1.2, 0.8);
+  }
+  80% {
+    -webkit-transform: scale(0.9, 1.1);
+            transform: scale(0.9, 1.1);
+  }
+  90% {
+    -webkit-transform: scale(1.05, 0.9);
+            transform: scale(1.05, 0.9);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+
+@keyframes text {
+  0% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  50% {
+    -webkit-transform: scale(1.4, 0.5);
+            transform: scale(1.4, 0.5);
+  }
+  60% {
+    -webkit-transform: scale(0.7, 1.4);
+            transform: scale(0.7, 1.4);
+  }
+  70% {
+    -webkit-transform: scale(1.2, 0.8);
+            transform: scale(1.2, 0.8);
+  }
+  80% {
+    -webkit-transform: scale(0.9, 1.1);
+            transform: scale(0.9, 1.1);
+  }
+  90% {
+    -webkit-transform: scale(1.05, 0.9);
+            transform: scale(1.05, 0.9);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+
+span:hover {
+  -webkit-animation: text 1s 1;
+          animation: text 1s 1;
+  cursor: pointer;
+}
+
+span {
+  display: inline-block;
+  letter-spacing: 0;
 }
 /*# sourceMappingURL=styles.css.map */
