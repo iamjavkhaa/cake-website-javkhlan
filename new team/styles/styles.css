@@ -386,6 +386,7 @@ nav {
   background: linear-gradient(90deg, #ed8975 0%, #f2d096 91%);
   padding: 10px;
   overflow: hidden;
+  margin-left: 10%;
 }
 
 .footer .contact {
@@ -405,7 +406,7 @@ nav {
   margin-right: 16px;
   width: 46px;
   height: 46px;
-  background-color: #ed8975;
+  background-color: #304d63;
   border-radius: 50%;
   line-height: 46px;
   text-align: center;
