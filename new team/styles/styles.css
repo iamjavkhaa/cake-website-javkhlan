@@ -344,6 +344,12 @@ nav {
   }
 }
 
+@media screen and (max-width: 914px) {
+  .p-huwaalt > p {
+    font-size: 20px !important;
+  }
+}
+
 @media (min-width: 784px) {
   .footer {
     width: 100%;

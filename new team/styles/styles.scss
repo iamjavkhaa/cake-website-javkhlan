@@ -280,6 +280,11 @@ nav{
 // <!-- ---------------------page 1 end -------------------------------- -->
 
 // <!-- ---------------------footer-start -------------------------------- -->
+@media screen and (max-width: 914px) {
+    .p-huwaalt > p {
+        font-size: 20px !important;
+    }
+}
 
 @media (min-width: 784px) {
     .footer {
